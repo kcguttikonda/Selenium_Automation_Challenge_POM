@@ -16,7 +16,7 @@ public class TestCase_EnterCommentFlow {
 
 
     public static void main(String args[]) {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\kguttiko\\Documents\\GitHub\\keyword-driven-framework\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(url);
         driver.manage().window().maximize();
